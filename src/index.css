@@ -12,3 +12,7 @@
   scrollbar-width: none; /* For Firefox */
   scroll-behavior: smooth;
 }
+
+a.active div {
+  display: block;
+}

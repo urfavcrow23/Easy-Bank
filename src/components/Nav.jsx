@@ -7,49 +7,49 @@ function Nav() {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="relative flex items-center justify-between py-5 font-medium">
-      <div className="flex items-center w-full justify-between">
+    <div className="sticky top-0 z-50 flex items-center    font-medium pt-5 px-4 bg-white sm:px-[5vw] md:px-[7vw] lg:px-[9vw] ">
+      <div className=" flex items-center w-full justify-between ">
         <img src={assets.logoIcon} alt="Logo" />
         <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
           <NavLink
             to="/"
             key="home"
-            className="flex flex-col items-center gap-1 gap"
+            className="flex flex-col items-center gap-4"
           >
             <h2>Home</h2>
-            <div className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></div>
+            <div className="w-full border-none h-[3.20px] bg-gradient-to-r from-[#31D35C] to-[#2BB7DA] hidden"></div>
           </NavLink>
           <NavLink
             to="/about"
             key="about"
-            className="flex flex-col items-center gap-1 gap"
+            className="flex flex-col items-center gap-4 "
           >
             <h2>About</h2>
-            <div className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></div>
+            <div className="w-full border-none h-[3.20px] bg-gradient-to-r from-[#31D35C] to-[#2BB7DA] hidden"></div>
           </NavLink>
           <NavLink
             to="/contact"
             key="contact"
-            className="flex flex-col items-center gap-1 gap"
+            className="flex flex-col items-center gap-4 "
           >
             <h2>Contact</h2>
-            <div className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></div>
+            <div className="w-full border-none h-[3.20px] bg-gradient-to-r from-[#31D35C] to-[#2BB7DA] hidden"></div>
           </NavLink>
           <NavLink
             to="/blog"
             key="blog"
-            className="flex flex-col items-center gap-1 gap"
+            className="flex flex-col items-center gap-4 "
           >
             <h2>Blog</h2>
-            <div className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></div>
+            <div className="w-full border-none h-[3.20px] bg-gradient-to-r from-[#31D35C] to-[#2BB7DA] hidden"></div>
           </NavLink>
           <NavLink
             to="/careers"
             key="careers"
-            className="flex flex-col items-center gap-1 gap"
+            className="flex flex-col items-center gap-4 "
           >
             <h2>Careers</h2>
-            <div className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden"></div>
+            <div className="w-full border-none h-[3.20px] bg-gradient-to-r from-[#31D35C] to-[#2BB7DA] hidden"></div>
           </NavLink>
         </ul>
         <NavLink to="/request-invite">
