@@ -7,7 +7,7 @@ function Nav() {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="sticky top-0 z-50 flex items-center    font-medium pt-5 px-4 bg-white sm:px-[5vw] md:px-[7vw] lg:px-[9vw] ">
+    <div className=" top-0 z-50 flex items-center    font-medium pt-5 px-4 bg-white sm:px-[5vw] md:px-[7vw] lg:px-[9vw] ">
       <div className=" flex items-center w-full justify-between ">
         <img src={assets.logoIcon} alt="Logo" />
         <ul className="hidden sm:flex gap-5 text-sm text-gray-700">

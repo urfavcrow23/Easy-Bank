@@ -13,6 +13,7 @@
     "chromatic": "npx chromatic --project-token=chpt_071fc2eb343a7c4"
   },
   "dependencies": {
+    "preline": "^2.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
@@ -30,6 +31,7 @@
     "@storybook/react": "^8.3.4",
     "@storybook/react-vite": "^8.3.4",
     "@storybook/test": "^8.3.4",
+    "@tailwindcss/forms": "^0.5.9",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
